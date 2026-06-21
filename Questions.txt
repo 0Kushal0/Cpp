@@ -1,0 +1,22 @@
+1. Global variable initialized with zero, is not going into data segment instead goes to .bss, why?
+
+2. When i call "make all" to compile it is asking main should be defined in all the .cpp file, it is asking main for add.cpp i dont want to add main in add.cpp since
+it just one fn with add fn, but same thing is not asking any thing when i use CMake, why it is like this? 
+
+3. Why MMU is reqd, like why we need an virtual address, why cant we handle directly with the real address, what is the problem with that?
+
+4. If main fn is called with 3 arguments, then we defined with void/no arguments also its works compiles without any errors, how and why?
+
+5. why we are using reference variable feature in C++ and what is the scope? - to be discussed in upcomming recordings.
+
+6. why do required ABI, without this whats the problem?
+
+7. While discussing about function overloading, it is understood that in a.out, if i use nm a.out, its shows mangled names, which in terns
+   changed the name its of a fn, even though u given same name in the code and with diff arg and return type.
+
+   but why we need to do mangling?
+
+8. In CMakeLists.txt, we didn't specifies any compilers, how it decides which compiler to choose?
+
+9. as mentioned in the day5 that string in the structure will go sit in text segment, how to verify this  and when i tried with seperate global data type char ptr it assinged to Data segment?
+    
